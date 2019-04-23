@@ -13,7 +13,7 @@ def line(arr)
   	i += 1
   end
   puts "The line is currently: #{namesAndNumbers.join(", ")}"
-
+end
 
 def take_a_number(arr, name)
   arr.push(name)
