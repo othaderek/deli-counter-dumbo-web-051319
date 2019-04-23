@@ -1,5 +1,7 @@
 # Write your code here.
 
+arr = []
+
 def line(arr)
   if arr.empty? == true
     puts "The line is currently empty."
@@ -12,9 +14,11 @@ def line(arr)
   	namesAndNumbers << "#{i.to_i + 1}. #{arr[i]}"
   	i += 1
   end
-  puts "The line is currently: #{namesAndNumbers.join(" ")}"
-end
 
+  if arr.length > 0
+  	puts "The line is currently: #{namesAndNumbers.join(" ")}"
+  end
+end
 
 def take_a_number(arr, name)
   arr.push(name)
