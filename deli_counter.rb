@@ -12,7 +12,7 @@ def line(arr)
   	namesAndNumbers << "#{i.to_i + 1}. #{arr[i]}"
   	i += 1
   end
-  puts "The line is currently: #{namesAndNumbers.join(", ")}"
+  puts "The line is currently: #{namesAndNumbers.join(" ")}"
 end
 
 def take_a_number(arr, name)
