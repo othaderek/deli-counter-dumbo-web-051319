@@ -15,10 +15,12 @@ def line(arr)
   puts "The line is currently: #{namesAndNumbers.join(" ")}"
 end
 
+
 def take_a_number(arr, name)
   arr.push(name)
   puts "Welcome, #{name}. You are number #{arr.length} in line."
 end
+
 
 def now_serving(arr)
   if arr.length == 0 
